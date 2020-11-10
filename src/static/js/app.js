@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">A few changes!</p>
+                <p className="text-center">New docker image created. Deploy is active.</p>
             )}
             {items.map(item => (
                 <ItemDisplay
